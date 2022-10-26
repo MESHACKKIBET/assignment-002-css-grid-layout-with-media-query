@@ -1,0 +1,74 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows:0.3fr 5fr 4fr;
+    grid-template-areas:
+        "nav nav nav nav"
+        "content1 content1 content1"
+        "content2 content2 content2"
+    ;
+    
+    margin: 10px;
+}
+nav{
+    text-align: center;
+    padding: 1Opx;
+    margin: 10px;
+    text-transform: capitalize;
+    
+}
+.content1{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+
+    
+}
+.content2{
+    display: grid;
+    grid-template-columns:2fr 5fr;
+    
+
+
+}
+#lists{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    border: 1px solid;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.css{
+    border:1px solid;
+
+    
+}
+.sidebar{
+    border:1px solid; 
+}
+main{
+    border:1px solid;
+    
+}
+.turtle{
+    border: 1px solid;
+}
+#politics{
+    background-color:#f5f5b5;
+}
+#technology{
+    background-color: #79cde8;
+}
+#locals{
+ background-color: #4646d8;   
+}
+#opinion{
+    background-color: #538553;
+}
+#sports{
+    background-color: purple;
+}
+img{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+}
