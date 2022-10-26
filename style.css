@@ -15,6 +15,7 @@ nav{
     padding: 1Opx;
     margin: 10px;
     text-transform: capitalize;
+    font-style: italic;
     
 }
 .content1{
@@ -36,9 +37,11 @@ nav{
     border: 1px solid;
     text-transform: capitalize;
     font-weight: bold;
+    
 }
 .css{
     border:1px solid;
+    align-items: center;
 
     
 }
@@ -68,7 +71,19 @@ main{
     background-color: purple;
 }
 img{
-    width: 500px;
+    width: 650px;
     height: 300px;
-    margin: 10px;
+    margin: 20px;
+    align-items: center;
 }
+@media(max-width: 576px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows:0.1fr 0.2fr 0.3fr 0.2fr 0.3fr 0.2fr ;
+
+    }
+
+}
+
+
+
